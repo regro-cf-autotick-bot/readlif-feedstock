@@ -1,5 +1,5 @@
 {% set name = "readlif" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb93d5204e3e948e16bdfc66c29255f81488ad92aeec4bf1763602e29d667641
+  sha256: 273de3847c9a4c832d9cd486c2bf0656b99f30c157a7781254664bd9c9ccce0d
 
 
 build:
